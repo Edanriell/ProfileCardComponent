@@ -5,12 +5,12 @@
 		<RouteView
 			DefaultLayout="@typeof(MainLayout)"
 			RouteData="@routeData" />
-		<focusonnavigate
+		<FocusOnNavigate
 			RouteData="@routeData"
 			Selector="h1" />
 	</Found>
 	<NotFound>
-		<pagetitle>Not found</pagetitle>
+		<PageTitle>Not found</PageTitle>
 		<LayoutView
 			Layout="@typeof(MainLayout)" >
 			<p
