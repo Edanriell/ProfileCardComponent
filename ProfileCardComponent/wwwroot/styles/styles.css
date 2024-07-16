@@ -1,0 +1,35 @@
+:root {
+	--river-styx: #121725;
+	--screen-glow: #54e6af;
+	--white: #ffffff;
+	--periwinkle-grey: #c2cbe5;
+	--bunting: #2c344b;
+	--peppermint-frosting: #b3ffe2;
+	--coral-red: #fb3e3e;
+	--eva-green: #3efb9d;
+
+	--font-family: "Chivo";
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
