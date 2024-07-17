@@ -1,29 +1,38 @@
 <article
 	class="profile-card" >
-	<h2 class="visually-hidden">Victor Crest profile card</h2>
+	<h2
+		class="visually-hidden" >
+		Victor Crest profile card
+	</h2>
 	<header
 		class="profile-card__card-header" >
-		<div
-			class="profile-card__decorative-background-image" >
-		</div>
+		<img
+			class="profile-card__decorative-background-image-sm"
+			src="/images/svg/profile-card/profile-card-header-background-sm.svg"
+			width="326px"
+			height="140px"
+			alt="" />
+		<img
+			class="profile-card__decorative-background-image-md"
+			src="/images/svg/profile-card/profile-card-header-background-md.svg"
+			width="350px"
+			height="140px"
+			alt="" />
 		<picture>
 			<source
-				media="(min-width: 1440px)"
-				srcset=""
-				type="image/png" >
-			<source
 				media="(min-width: 375px)"
-				srcset=""
-				type="image/png" >
+				srcset="/images/users/victor-crest-profile-image.jpg"
+				type="image/jpg" >
 			<img
-				alt=""
+				alt="Victor Crest headshot photography"
 				class="profile-card__user-image"
-				src="" >
+				src="/images/users/victor-crest-profile-image.jpg" >
 		</picture>
 	</header>
 	<div
 		class="profile-card__content" >
-		<p>
+		<p 
+			class="profile-card__user-fullname-wrapper" >
 			<strong
 				class="profile-card__user-fullname" >
 				Victor Crest
@@ -43,7 +52,7 @@
 		<dl
 			class="profile-card__user-stats user-stats" >
 			<div
-				class="user-stats__field" >
+				class="user-stats__field user-stats__field--type--followers" >
 				<dt
 					class="user-stats__field-name" >
 					Followers
@@ -54,7 +63,7 @@
 				</dd>
 			</div>
 			<div
-				class="user-stats__field" >
+				class="user-stats__field user-stats__field--type--likes" >
 				<dt
 					class="user-stats__field-name" >
 					Likes
@@ -65,7 +74,7 @@
 				</dd>
 			</div>
 			<div
-				class="user-stats__field" >
+				class="user-stats__field user-stats__field--type--photos" >
 				<dt
 					class="user-stats__field-name" >
 					Photos
