@@ -7,6 +7,10 @@
 	margin: 2.5rem;
 	overflow: hidden;
 	z-index: 2;
+	
+	@media (width >= 350px) {
+		max-width: 35rem;
+	}
 }
 
 .profile-card__card-header {
@@ -17,7 +21,7 @@
 	display: block;
 	width: 32.6rem;
 	height: 14rem;
-	
+
 	@media (width >= 768px) {
 		display: none;
 	}
@@ -29,7 +33,7 @@
 	height: 14rem;
 	
 	@media (width >= 768px) {
-		display: block
+		display: block;
 	}
 }
 
@@ -51,6 +55,10 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	
+	@media (width >= 768px) {
+		margin-bottom: 2.5rem;
+	}
 }
 
 .profile-card__user-fullname-wrapper {
@@ -60,6 +68,10 @@
 	align-items: center;
 	justify-content: center;
 	column-gap: 0.85rem;
+	
+	@media (width >= 768px) {
+		column-gap: 0.95rem;
+	}
 }
 
 .profile-card__user-fullname {
@@ -124,7 +136,7 @@
 }
 
 .user-stats__field-value {
-	font-family: var(--font-family),  sans-serif;
+	font-family: var(--font-family), sans-serif;
 	font-weight: 700;
 	font-size: 1.8rem;
 	text-align: center;
@@ -134,10 +146,18 @@
 
 .user-stats__field--type--followers {
 	margin-right: 3.8rem;
+	
+	@media (width >= 768px) {
+		margin-right: 4.6rem;
+	}
 }
 
 .user-stats__field--type--likes {
 	margin-right: 4.6rem;
+
+	@media (width >= 768px) {
+		margin-right: 5.4rem;
+	}
 }
 
 .user-stats__field--type--photos {
